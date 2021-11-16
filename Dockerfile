@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y \
     libxml2-dev \
     zip \
     unzip \
-    && docker-php-ext-install pdo_mysql \
     && docker-php-ext-install mbstring \
     && docker-php-ext-install exif \
     && docker-php-ext-install pcntl \

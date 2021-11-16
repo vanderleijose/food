@@ -20,7 +20,7 @@ CI_ENVIRONMENT = ${CI_ENVIRONMENT}
 # APP
 #--------------------------------------------------------------------
 
-app.baseURL = ${baseURL}
+app.baseURL = ${BASE_URL}
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
